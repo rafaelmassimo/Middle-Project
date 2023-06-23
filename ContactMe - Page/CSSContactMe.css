@@ -5,3 +5,180 @@
 * {
     color: var(--white);
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav button {
+    font-family: brandon;
+    letter-spacing: 0.5px;
+    margin-top: 2em;
+    margin-right: 5em;
+    width: 14em;
+    height: 2.5em;
+    text-align: center;
+    transition: 0.5s;
+    background-size: cover;
+    box-shadow: 0 0 10px #74eae0;
+    color: var(--white);
+    border-radius: 48px;
+    background: rgba(6, 4, 20, 1);
+    background-image: linear-gradient(to right, rgba(133, 124, 254,-1.75) 35%, rgba(115, 250, 201,0.8) 112%);
+    border-color: rgba(115, 250, 201, 1);
+}
+
+nav button:hover {
+    letter-spacing: 1px;
+    margin-left: 3.5em;
+    width: 16em;
+    height: 2.5em;
+    text-align: center;
+    transition: 0.5s;
+    background-size: cover;
+    box-shadow: 0 0 15px rgb(160, 250, 115);
+    color: var(--white);
+    border-radius: 48px;
+    background: rgba(6, 4, 20, 1);
+    background-image: linear-gradient(to right, rgba(133, 124, 254,0.25) 35%, rgba(115, 250, 201, 1) 100%);
+    border: 4px solid;
+    border-color: rgb(56, 215, 176);
+}
+
+#social-media-section h2 {
+    font-size: 1.5em;
+    margin-left: 6%;
+    margin-top: 4em;
+}
+
+#social-media-paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2.5px solid;
+    transition: 0.5 ease-in-out;
+    border-image: linear-gradient(to bottom right, rgba(155, 88, 167, 0.778), rgba(193, 152, 199, 0),rgba(255, 231, 255, 0),rgba(0, 201, 191, 0.712))1;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#social-media-paragraph p {
+    font-size: 1.5em;
+    padding-right: 0px;
+}
+
+#hello {
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(to right, rgba(115, 250, 201, 1), rgba(145, 111, 194, 1));
+    background-size: -1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    
+}
+
+#hello:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, rgba(115, 250, 201, 1), rgba(145, 111, 194, 1));
+    background-size: -1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+#brighten {
+    transition: 0.5s ease-in-out;
+    text-shadow:2px 0px 26px var(--white), 0 0 27px #e4e4e4, 0 0 23px rgb(230 224 238)
+}
+
+#brighten:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 1.1em;
+    text-shadow:2px 0px 45px var(--white), 0 0 40px #e4e4e4, 0 0 40px rgb(230 224 238)
+}
+
+#social-media-icons {
+    transition: 1s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    background-image: linear-gradient(to bottom, rgba(150, 91, 176, 1)-99%, rgba(150, 91, 176, 0)81%);
+    border: 3px solid;
+    border-image: linear-gradient(to bottom right, rgba(155, 88, 167, 0.54), rgba(193, 152, 199, 0),rgba(255, 231, 255, 0), rgba(0, 201, 190, 0.51)51%)1;
+    margin-block: 2em;
+}
+
+#social-media-icons:hover {
+    transition: 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    background-image: linear-gradient(to bottom, rgba(150, 91, 176, 1)-99%, rgba(150, 91, 176, 0)81%);
+    border: 3px solid;
+    border-image: linear-gradient(to bottom right, rgb(0, 201, 191), rgba(255, 231, 255, 0.092), rgba(193, 152, 199, 0.07), rgb(155, 88, 167)) 1;
+    margin-block: 2em;
+}
+#social-logos {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2em;
+    padding-bottom: 3em;
+}
+
+#social-names {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2em;
+    padding-bottom: 3em;
+    align-items: center;
+}
+
+#social-media-icons img {
+    transition: 0.5s ease-in-out;
+    width: 50px;
+    padding-block: 2em;
+}
+
+#social-media-icons img:hover {
+    transition: 0.5s ease-in-out;
+    width: 60px;
+    padding-block: 2em;
+}
+
+#social-media-icons p {
+    padding-block: 0.6em;
+    color: FDF8F8;
+}
+
+#social-media-icons img.facebook {
+    transition: 0.5s ease-in-out;
+    padding-left: 0.6em;
+    width: 35px;
+}
+
+#social-media-icons img.facebook:hover {
+    transition: 0.5s ease-in-out;
+    padding-left: 0.6em;
+    width: 42px;
+}
+
+#forms-section h2 {
+    font-size: 1.5em;
+    margin-left: 6%;
+    margin-top: 4em;
+}
+
+#get-in-touch {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom, rgba(0, 201, 190, 1), rgba(112, 197, 219, 0.2), rgba(255, 192, 55, 0))
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
