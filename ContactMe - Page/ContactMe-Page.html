@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./CSSContactMe.css">
+
+    <style>
+        @font-face {
+            font-family: brandon;
+            src: url(./Font-style/BrandonText-Regular.otf);
+            font-weight: normal;
+        }
+
+        @font-face {
+        font-family: brandon;
+        src: url(./Font-style/BrandonText-Bold.otf);
+        font-weight: bold;
+        }
+
+        @font-face {
+            font-family: brandon;
+            src: url(./Font-style/BrandonText-RegularItalic.otf);
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        * {
+        font-family: brandon;
+        font-weight: normal;
+        letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="button1">
+                <a href="../HomePage - Page/HomePage.html" target="_self">
+                    <button class="little" type="button">Return to Home Page</button> 
+                </a>
+            </div>
+            <div id="button2">
+
+                <a href="../Professional-Experience-Page/professionalExpPage.html" target="_self">
+                    <button class="little" type="button">Professional Skills</button> 
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="social-media-section">
+            <h2>Say Hi!</h2>
+
+            <div id="social-media-paragraph">
+                <div>
+                    <p>
+                        Feel free to say <span id="hello">Hello</span> and <span id="brighten" >brighten</span> my day with your <span id="presence" >presence</span>!  
+                    </p>
+                </div>
+
+                <div id="social-media-icons">
+                    <a href="https://www.instagram.com/rafael4giaro/" target="_blank">
+                        <img src="./images/instagram.png" alt="The instagram logo">
+                    </a>
+                    <a href="https://www.linkedin.com/in/rafael--almeida/" target="_blank">
+                        <img src="./images/linkedin.png" alt="The Linkedin logo">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100091447880953" target="_blank">
+                        <img src="./images/facebook.png" alt="The Facebook logo">
+                    </a>
+                </div>
+            </div>
+
+
+
+        </section>
+        
+        <section id="forms-section">
+            <h2>Click Bellow to Reach Me</h2>
+
+            <div id="forms-paragraph">
+                <form action="mailto:rafael_massimo@hotmail.com" method="post" enctype="multipart/form-data">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your E-mail:</label> 
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="budget">Your Budget:</label>
+                    <input type="text" id="budget" name="budget" required>
+                    
+                    <label for="message">Explain your idea:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <input type="submit" value="Submit">                    
+                </form>
+                </div>
+        </section>
+
+        <footer>
+            <div id="button1">
+                <a href="../HomePage - Page/HomePage.html" target="_self">
+                    <button class="little" type="button">Return to Home Page</button> 
+                </a>
+            </div>
+            <div id="button2">
+
+                <a href="to add in the sequence" target="_self">
+                    <button class="little" type="button">Professional Skills</button> 
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+
+</body>
+</html>

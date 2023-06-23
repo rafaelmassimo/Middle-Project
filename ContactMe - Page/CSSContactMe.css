@@ -1,0 +1,7 @@
+:root {
+    --white: rgba(218, 221, 226, 1);
+    background-color: rgba(6, 4, 20, 1);
+}
+* {
+    color: var(--white);
+}
