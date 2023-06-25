@@ -174,11 +174,82 @@ nav button:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;
-    background-image: linear-gradient(to bottom, rgba(0, 201, 190, 1), rgba(112, 197, 219, 0.2), rgba(255, 192, 55, 0))
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, rgba(0, 201, 190, 1) -78%, rgba(112, 197, 219, 0.1)59%, rgba(255, 192, 55, 0)85%);
+    margin-inline: 6em;
+    margin-bottom: 3em;
+
 }
 
-form {
+ form {
     display: flex;
     flex-direction: column;
+    background-color: transparent;
+    margin-top: 2em;
+    
+}
+
+form label {
+    color: rgba(155, 88, 167, 1);
+}
+
+form input {
+    border-radius: 10px;
+    border: none;
+    height: 1.7em;
+    width: 10em;
+    background-image: linear-gradient(to right, rgba(255, 192, 255, 1), rgba(115, 250, 201, 1));
+    color:black;
+}
+
+.budget-container {
+    position: relative;
+}
+  
+.currency-symbol {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+  
+#budget {
+    padding-left: 20px;
+}
+
+form textarea {
+    border-radius: 1em;
+    border: none;
+    height: 10em;
+    width: 20em;
+    background-image: linear-gradient(to right, rgba(255, 192, 255, 1), rgba(115, 250, 201, 1));
+    color:black;
+}
+
+#contact-me img {
+    display: inline;
+    width: 4em;
+    height: fit-content;
+    margin-top: 3em;
+    align-items: center;
+ 
+}
+
+#contact-me {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4em;
+    width: 10em;
+    letter-spacing: 2px;
+}
+
+#forms-paragraph {
+    padding-top: 3em;
+}
+
+.submit {
+    background-image: linear-gradient(to right, rgba(115, 250, 201, 1), rgba(255, 192, 255, 1));
 }

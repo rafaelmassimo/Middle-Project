@@ -96,30 +96,30 @@
 
                 <div id="contact-me">
                     <div id="whats">
-                        <p>
-                            WhatsApp
-                        </p>
                         <a href=" https://wa.me/6726679711" target="_blank">
                             <img src="./images/whatsapp logo.png" alt="The whatsapp logo">
                         </a>
+                            <p>
+                                WhatsApp
+                            </p>
                     </div>
                     
                     <div id="email">
-                        <p>
-                            E-mail
-                        </p>
                         <a href="mailto:rafael_massimo@hotmail.com">
-                        <img src="./images/e-mail.png" alt="An e-mail logo">
+                            <img src="./images/e-mail.png" alt="An e-mail logo">
                         </a>
+                            <p>
+                                E-mail
+                            </p>
                     </div>
                 
                     <div id="location">
-                        <p>
-                            Vancouver - Canada
-                        </p>
                         <a href="https://www.google.com/maps/@49.2677907,-123.1188189,3a,75y,320.57h,87.08t/data=!3m7!1e1!3m5!1svCSh1S_sqpmivYwFeuJ6AA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DvCSh1S_sqpmivYwFeuJ6AA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D109.16648%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu">
                             <img src="./images/location.png" alt="An pin location logo">
                         </a>
+                            <p>
+                                Vancouver (BC) 
+                            </p>
                     </div>
                 
                 </div>
@@ -128,18 +128,24 @@
                     <form action="mailto:rafael_massimo@hotmail.com" method="post" enctype="multipart/form-data">
                         <label for="name">Your Name:</label>
                         <input type="text" id="name" name="name" required>
-                        
+                        <br>
+                                              
                         <label for="email">Your E-mail:</label> 
                         <input type="email" id="email" name="email" required>
-                        
+                        <br>
+                                              
                         <label for="budget">Your Budget:</label>
-                        <input type="text" id="budget" name="budget" required>
-                        
+                        <div class="budget-container">
+                          <span class="currency-symbol">$ </span>
+                          <input type="number" id="budget" name="budget" required>
+                        </div>
+                        <br>
+                                              
                         <label for="message">Explain your idea:</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
-                        
-                        <input type="submit" value="Submit">                    
-                    </form>
+                        <br>
+                        <button type="submit" class="submit">Submit</button>                   
+                      </form>
                 </div>
             </div>
         </section>
