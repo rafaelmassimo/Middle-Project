@@ -1,3 +1,6 @@
+/* -------------------------------------------------------
+Change the color of the all font and background
+------------------------------------------------------- */
 :root {
     --white: rgba(218, 221, 226, 1);
     background-color: rgba(6, 4, 20, 1);
@@ -6,6 +9,9 @@
     color: var(--white);
 }
 
+/* -------------------------------------------------------
+Change the position and style of the buttons on top
+------------------------------------------------------- */
 nav {
     display: flex;
     flex-direction: row;
@@ -47,10 +53,14 @@ nav button:hover {
     border-color: rgb(56, 215, 176);
 }
 
+/* -------------------------------------------------------------
+Edit the position and style of the all the social media section
+---------------------------------------------------------------- */
+
 #social-media-section h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-left: 6%;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 #social-media-paragraph {
@@ -76,7 +86,6 @@ nav button:hover {
     background-size: -1em;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
-    
 }
 
 #hello:hover {
@@ -164,10 +173,15 @@ nav button:hover {
     width: 42px;
 }
 
+/* -------------------------------------------------------------
+Edit the position and style of the all the Form section
+---------------------------------------------------------------- */
+
 #forms-section h2 {
-    font-size: 1.5em;
     margin-left: 6%;
     margin-top: 4em;
+    font-size: 2em;
+
 }
 
 #get-in-touch {
@@ -178,7 +192,7 @@ nav button:hover {
     background-image: linear-gradient(to bottom, rgba(0, 201, 190, 1) -78%, rgba(112, 197, 219, 0.1)59%, rgba(255, 192, 55, 0)85%);
     margin-inline: 6em;
     margin-bottom: 3em;
-
+    border-radius: 10px;
 }
 
  form {
@@ -186,7 +200,6 @@ nav button:hover {
     flex-direction: column;
     background-color: transparent;
     margin-top: 2em;
-    
 }
 
 form label {
@@ -200,6 +213,14 @@ form input {
     width: 10em;
     background-image: linear-gradient(to right, rgba(255, 192, 255, 1), rgba(115, 250, 201, 1));
     color:black;
+}
+
+#location img {
+    padding-left: 1.9em;
+}
+
+#email p {
+    padding-left: 0.4em;
 }
 
 .budget-container {
@@ -218,6 +239,9 @@ form input {
     padding-left: 20px;
 }
 
+/* -------------------------------------------------------------
+Edit the size of the input for "explain your ideia"
+---------------------------------------------------------------- */
 form textarea {
     border-radius: 1em;
     border: none;
@@ -233,7 +257,6 @@ form textarea {
     height: fit-content;
     margin-top: 3em;
     align-items: center;
- 
 }
 
 #contact-me {
@@ -250,6 +273,63 @@ form textarea {
     padding-top: 3em;
 }
 
+
 .submit {
     background-image: linear-gradient(to right, rgba(115, 250, 201, 1), rgba(255, 192, 255, 1));
+    width: 10em;
+    border-radius: 5px;
+    color: rgba(155, 88, 167, 1);
 }
+
+/* -------------------------------------------------------------------
+Edit here the position and style of the button at the end of the page
+---------------------------------------------------------------------- */
+
+button {
+    cursor: pointer;
+}
+
+.footer button {
+    font-family: brandon;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+    margin-left: 13em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    width: 15em;
+    height: 5em;
+    text-align: center;
+    transition: 0.5s;
+    background-size: cover;
+    box-shadow: 0 0 10px #74eae0;
+    color: var(--white);
+    border-radius: 48px;
+    background: rgba(6, 4, 20, 1);
+    background-image: linear-gradient(to right, rgba(133, 124, 254,-1.75) 35%, rgba(115, 250, 201,0.8) 112%);
+    border-color: rgba(115, 250, 201, 1);
+}
+
+.footer button:hover {
+    font-family: brandon;
+    letter-spacing: 3px;
+    margin-left: 13em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    width: 16em;
+    height: 5em;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    background-size: cover;
+    box-shadow: 0 0 30px #74eae0;
+    color: var(--white);
+    border-radius: 48px;
+    background: rgba(6, 4, 20, 1);
+    background-image: linear-gradient(to right, rgba(133, 124, 254,0.25) 35%, rgba(115, 250, 201, 1) 100%);
+    border-color: rgb(56, 215, 176);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
